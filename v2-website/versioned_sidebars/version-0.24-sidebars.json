@@ -1,0 +1,452 @@
+{
+  "version-0.24/docs": [
+    {
+      "type": "category",
+      "label": "The Basics",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/getting-started"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/tutorial"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/props"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/state"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/style"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/height-and-width"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/flexbox"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/handling-text-input"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/handling-touches"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/using-a-scrollview"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/using-a-listview"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/network"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/more-resources"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Guides",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/components-and-apis"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/platform-specific-code"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/navigation"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/images"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/animations"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/accessibility"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/improvingux"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/timers"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/debugging"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/performance"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/gesture-responder-system"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/javascript-environment"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/direct-manipulation"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/colors"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/integration-with-existing-apps"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/running-on-device"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/upgrading"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/troubleshooting"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/native-modules-setup"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Guides (iOS)",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/native-modules-ios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/native-components-ios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/linking-libraries-ios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/running-on-simulator-ios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/communication-ios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/building-for-tv"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/app-extensions"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Guides (Android)",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/native-modules-android"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/native-components-android"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/headless-js-android"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/signed-apk-android"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/removing-default-permissions"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Components",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/datepickerios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/drawerlayoutandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/image"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/modal"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/navigator"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/navigatorios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/picker"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/progressbarandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/progressviewios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/refreshcontrol"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/scrollview"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/segmentedcontrolios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/slider"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/snapshotviewios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/statusbar"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/switch"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/tabbarios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/tabbarios-item"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/text"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/textinput"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/toolbarandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/touchablehighlight"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/touchablenativefeedback"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/touchableopacity"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/touchablewithoutfeedback"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/viewpagerandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/webview"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "APIs",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.24/actionsheetios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/animated"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/appstate"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/asyncstorage"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/cameraroll"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/clipboard"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/datepickerandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/dimensions"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/easing"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/geolocation"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/imageeditor"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/imagepickerios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/imagestore"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/image-style-props"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/interactionmanager"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/layout-props"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/layoutanimation"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/linking"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/netinfo"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/pixelratio"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/pushnotificationios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/settings"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/shadow-props"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/statusbarios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/stylesheet"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/text-style-props"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/timepickerandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/toastandroid"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/transforms"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/vibration"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/vibrationios"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.24/view-style-props"
+        }
+      ]
+    }
+  ]
+}
