@@ -4,7 +4,7 @@ author: Daniel Witte
 authorTitle: Software Engineer at Facebook
 authorURL: 'https://www.facebook.com/drwitte'
 authorFBID: 210064
-hero: '/blog/assets/blue-hero.png'
+hero: './assets/blue-hero.png'
 category: announcements
 ---
 

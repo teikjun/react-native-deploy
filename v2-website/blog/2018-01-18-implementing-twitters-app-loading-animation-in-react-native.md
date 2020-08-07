@@ -10,7 +10,7 @@ category: engineering
 
 Twitter’s iOS app has a loading animation I quite enjoy.
 
-<img src="/blog/assets/loading-screen-01.gif" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
+<img src="./assets/loading-screen-01.gif" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
 
 Once the app is ready, the Twitter logo delightfully expands, revealing the app.
 
@@ -20,7 +20,7 @@ I wanted to figure out how to recreate this loading animation with React Native.
 
 To understand _how_ to build it, I first had to understand the difference pieces of the loading animation. The easiest way to see the subtlety is to slow it down.
 
-<img src="/blog/assets/loading-screen-02.gif" style="margin-top: 20px; float: left; padding-right: 80px; padding-bottom: 20px"/>
+<img src="./assets/loading-screen-02.gif" style="margin-top: 20px; float: left; padding-right: 80px; padding-bottom: 20px"/>
 
 There are a few major pieces in this that we will need to figure out how to build.
 
@@ -40,7 +40,7 @@ Luckily for you, dear reader, you don’t have to go through the same frustratio
 
 Before we get to code, it is important to understand how to break this down. To help visualize this effect, I recreated it in [CodePen](https://codepen.io/TheSavior/pen/NXNoJM) (embedded in a few paragraphs) so you can interactively see the different layers.
 
-<img src="/blog/assets/loading-screen-03.png" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
+<img src="./assets/loading-screen-03.png" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
 
 There are three main layers to this effect. The first is the blue background layer. Even though this seems to appear on top of the app, it is actually in the back.
 
@@ -48,7 +48,7 @@ We then have a plain white layer. And then lastly, in the very front, is our app
 
 <hr style="clear: both; margin-bottom: 40px; width: 80px"/>
 
-<img src="/blog/assets/loading-screen-04.png" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
+<img src="./assets/loading-screen-04.png" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
 
 The main trick to this animation is using the Twitter logo as a `mask` and masking both the app, and the white layer. I won’t go too deep on the details of masking, there are [plenty](https://www.html5rocks.com/en/tutorials/masking/adobe/) of [resources](https://designshack.net/articles/graphics/a-complete-beginners-guide-to-masking-in-photoshop/) [online](https://www.sketchapp.com/docs/shapes/masking/) for that.
 
@@ -103,7 +103,7 @@ What we want to do is render our blue layer, and then on top render our masked a
 
 This will give us the layers we see below.
 
-<img src="/blog/assets/loading-screen-04.png" style="margin-left: auto; margin-right: auto; display: block" />
+<img src="./assets/loading-screen-04.png" style="margin-left: auto; margin-right: auto; display: block" />
 
 ## Now for the Animated part
 
@@ -152,7 +152,7 @@ Animated.timing(this.state.loadingProgress, {
 
 I then try to figure out a rough estimate of the different pieces of the animations and the values I want them to have at different stages of the overall animation. Below is a table of the different pieces of the animation, and what I think their values should be at different points as we progress through time.
 
-![](/blog/assets/loading-screen-05.png)
+![](./assets/loading-screen-05.png)
 
 The Twitter bird mask should start at scale 1, and it gets smaller before it shoots up in size. So at 10% through the animation, it should have a scale value of .8 before shooting up to scale 70 at the end. Picking 70 was pretty arbitrary to be honest, it needed to be large enough that the bird fully revealed the screen and 60 wasn’t big enough 😀. Something interesting about this part though is that the higher the number, the faster it will look like it is growing because it has to get there in the same amount of time. This number took some trial and error to make look good with this logo. Logos / devices of different sizes will require this end-scale to be different to ensure the entire screen is revealed.
 
@@ -232,7 +232,7 @@ return (
 );
 ```
 
-<img src="/blog/assets/loading-screen-06.gif" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
+<img src="./assets/loading-screen-06.gif" style="float: left; padding-right: 80px; padding-bottom: 20px"/>
 
 Yay! We now have the animation pieces looking like we want. Now we just have to clean up our blue and white layers which will never be seen again.
 
@@ -269,7 +269,7 @@ Don’t fret, dear reader. I too hate when guides only give you chunks of the co
 
 This component has been published to npm and is on GitHub as [react-native-mask-loader](https://github.com/TheSavior/react-native-mask-loader). To try this out on your phone, it is [available on Expo](https://expo.io/@eliwhite/react-native-mask-loader-example) here:
 
-<img src="/blog/assets/loading-screen-07.png" style="margin-left: auto; margin-right: auto; display: block" />
+<img src="./assets/loading-screen-07.png" style="margin-left: auto; margin-right: auto; display: block" />
 
 ## More Reading / Extra Credit
 
