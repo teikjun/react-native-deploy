@@ -5,7 +5,7 @@ authorTitle: Engineering Manager at Facebook
 authorURL: 'https://github.com/tomocchino'
 authorImageURL: 'https://avatars0.githubusercontent.com/u/13947?v=3&s=460'
 authorTwitter: tomocchino
-hero: '/blog/assets/dark-hero.png'
+hero: './assets/dark-hero.png'
 category: announcements
 ---
 
