@@ -341,13 +341,13 @@ module.exports = {
           editUrl:
             'https://github.com/facebook/react-native-website/blob/master/docs/',
           path: '../docs',
-          sidebarPath: '../sidebars.json',
+          sidebarPath: require.resolve('./sidebars.json'),
         },
         blog: {
           path: 'blog',
         },
         theme: {
-          customCss: '../src/css/customTheme.css',
+          customCss: require.resolve('./src/css/customTheme.css'),
         },
       },
     ],
