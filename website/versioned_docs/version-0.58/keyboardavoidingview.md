@@ -21,7 +21,7 @@ import { KeyboardAvoidingView } from 'react-native';
 
 ### Example
 
-![](/docs/assets/KeyboardAvoidingView/example.gif)
+<video src="/img/keyboardavoidingview.mp4" muted autoplay loop width="320" height="448"></video>
 
 ### Props
 

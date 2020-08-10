@@ -8,7 +8,7 @@ It is a component to solve the common problem of views that need to move out of 
 
 ### Example
 
-![](/docs/assets/KeyboardAvoidingView/example.gif)
+<video src="/img/keyboardavoidingview.mp4" muted autoplay loop width="320" height="448"></video>
 
 ### Props
 
