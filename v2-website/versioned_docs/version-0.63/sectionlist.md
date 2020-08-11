@@ -21,18 +21,18 @@ If you don't need section support and want a simpler interface, use [`<FlatList>
 
 ## Example
 
-<div class="toggler">
-  <ul role="tablist" class="toggle-syntax">
-    <li id="functional" class="button-functional" aria-selected="false" role="tab" tabindex="0" aria-controls="functionaltab" onclick="displayTabs('syntax', 'functional')">
+<div className="toggler">
+  <ul role="tablist" className="toggle-syntax">
+    <li id="functional" className="button-functional" aria-selected="false" role="tab" tabIndex={0} aria-controls="functionaltab" onClick="displayTabs('syntax', 'functional')">
       Function Component Example
     </li>
-    <li id="classical" class="button-classical" aria-selected="false" role="tab" tabindex="0" aria-controls="classicaltab" onclick="displayTabs('syntax', 'classical')">
+    <li id="classical" className="button-classical" aria-selected="false" role="tab" tabIndex={0} aria-controls="classicaltab" onClick="displayTabs('syntax', 'classical')">
       Class Component Example
     </li>
   </ul>
 </div>
 
-<block class="functional syntax" />
+<block className="functional syntax" />
 
 ```SnackPlayer name=SectionList%20Example
 import React from "react";
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
-<block class="classical syntax" />
+<block className="classical syntax" />
 
 ```SnackPlayer name=SectionList%20Example
 import React, { Component } from "react";
@@ -184,7 +184,7 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
-<block class="endBlock syntax" />
+<block className="endBlock syntax" />
 
 This is a convenience wrapper around [`<VirtualizedList>`](virtualizedlist.md), and thus inherits its props (as well as those of [`<ScrollView>`](scrollview.md) that aren't explicitly listed here, along with the following caveats:
 
@@ -414,9 +414,9 @@ Rendered at the top of each section. These stick to the top of the `ScrollView` 
 
 Rendered at the top and bottom of each section (note this is different from `ItemSeparatorComponent` which is only rendered between items). These are intended to separate sections from the headers above and below and typically have the same highlight response as `ItemSeparatorComponent`. Also receives `highlighted`, `[leading/trailing][Item/Section]`, and any custom props from `separators.updateProps`.
 
-| Type              | Required |
-| ----------------- | -------- |
-| [ReactClass<any>] | No       |
+| Type                | Required |
+| ------------------- | -------- |
+| `[ReactClass<any>]` | No       |
 
 ---
 
