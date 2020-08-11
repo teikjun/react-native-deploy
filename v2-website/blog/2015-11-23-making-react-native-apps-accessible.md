@@ -19,7 +19,11 @@ For this post, we're going to focus on React Native apps. We've designed the Rea
 Let's walk through a slightly more involved application of the React AX API by looking at one of Facebook's own React-powered products: the **Ads Manager app**.
 
 <footer>
-  <a href="https://code.facebook.com/posts/435862739941212/making-react-native-apps-accessible/" class="btn">Read more</a>
+  <a
+    href="https://code.facebook.com/posts/435862739941212/making-react-native-apps-accessible/"
+    class="btn">
+    Read more
+  </a>
 </footer>
 
 > This is an excerpt. Read the rest of the post on [Facebook Code](https://code.facebook.com/posts/435862739941212/making-react-native-apps-accessible/).

@@ -74,11 +74,11 @@ In general, most components are already RTL-ready, for example:
 
 - Left-to-Right Layout
 
-<img src="./assets/rtl-demo-listitem-ltr.png" width="300">
+<img src="./assets/rtl-demo-listitem-ltr.png" width="300" />
 
 - Right-to-Left Layout
 
-<img src="./assets/rtl-demo-listitem-rtl.png" width="300">
+<img src="./assets/rtl-demo-listitem-rtl.png" width="300" />
 
 However, there are several cases to be aware of, for which you will need the [`I18nManager`](https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js). In [`I18nManager`](https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js), there is a constant `isRTL` to tell if layout of app is RTL or not, so that you can make the necessary changes according to the layout.
 
@@ -88,11 +88,11 @@ If your component has icons or images, they will be displayed the same way in LT
 
 - Left-to-Right Layout
 
-<img src="./assets/rtl-demo-icon-ltr.png" width="300">
+<img src="./assets/rtl-demo-icon-ltr.png" width="300" />
 
 - Right-to-Left Layout
 
-<img src="./assets/rtl-demo-icon-rtl.png" width="300">
+<img src="./assets/rtl-demo-icon-rtl.png" width="300" />
 
 Here are two ways to flip the icon according to the direction:
 

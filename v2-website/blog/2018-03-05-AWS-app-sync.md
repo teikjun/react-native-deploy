@@ -166,7 +166,13 @@ The example above shows a query with the sample app schema provisioned by AppSyn
 
 You can see a deep dive of the [client technology behind this and a React Native demo in this video](https://www.youtube.com/watch?v=FtkVlIal_m0).
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FtkVlIal_m0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/FtkVlIal_m0?rel=0"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen></iframe>
 
 ## Feedback
 

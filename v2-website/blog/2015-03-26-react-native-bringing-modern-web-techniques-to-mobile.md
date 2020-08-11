@@ -16,7 +16,11 @@ React forces us to break our applications down into discrete components, each re
 Together with the rapid iteration cycle of the web, we've been able to build some awesome products with React, including many components of Facebook.com. Additionally, we've built amazing frameworks in JavaScript on top of React, like [Relay](https://reactjs.org/blog/2015/02/20/introducing-relay-and-graphql.html), which allows us to greatly simplify our data fetching at scale. Of course, web is only part of the story. Facebook also has widely used Android and iOS apps, which are built on top of disjointed, proprietary technology stacks. Having to build our apps on top of multiple platforms has bifurcated our engineering organization, but that's only one of the things that makes native mobile application development hard.
 
 <footer>
-  <a href="https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/" class="btn">Read more</a>
+  <a
+    href="https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/"
+    class="btn">
+    Read more
+  </a>
 </footer>
 
 > This is an excerpt. Read the rest of the post on [Facebook Code](https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/).

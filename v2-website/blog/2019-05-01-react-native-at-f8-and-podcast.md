@@ -13,7 +13,10 @@ This week, [Eli White](https://twitter.com/Eli_White) gave a talk at [F8 2019](h
 Check out the video on [Facebook's developer website](https://developers.facebook.com/videos/2019/mobile-innovation-with-react-native-componentkit-and-litho/):
 
 <a href="https://developers.facebook.com/videos/2019/mobile-innovation-with-react-native-componentkit-and-litho/">
-  <img src="./assets/eli-at-f8.png" alt="F8 Talk about React Native" />
+  <img
+    src="./assets/eli-at-f8.png"
+    alt="F8 Talk about React Native"
+  />
 </a>
 
 #### Highlights from the talk:
@@ -38,4 +41,4 @@ You'll find the episode in your favorite podcasting app soon or you can listen t
 <audio
   controls
   style="display: block; margin: 0 auto;"
-  src="https://media.devchat.tv/reactnativeradio/React_Native_Radio_Episode_121.mp3"> Audio is unsupported in this browser. </audio>
+  src="https://media.devchat.tv/reactnativeradio/React_Native_Radio_Episode_121.mp3"> {' '} Audio is unsupported in this browser.{' '} </audio>
