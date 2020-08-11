@@ -190,9 +190,9 @@ Gets _all_ keys known to your app; for all callers, libraries, etc. Returns a `P
 
 **Parameters:**
 
-| Name     | Type                                           | Required | Description                                                     |
-| -------- | ---------------------------------------------- | -------- | --------------------------------------------------------------- |
-| callback | ?(error: ?Error, keys: ?Array<string>) => void | No       | Function that will be called with all keys found and any error. |
+| Name     | Type                                             | Required | Description                                                     |
+| -------- | ------------------------------------------------ | -------- | --------------------------------------------------------------- |
+| callback | `?(error: ?Error, keys: ?Array<string>) => void` | No       | Function that will be called with all keys found and any error. |
 
 ---
 
@@ -222,10 +222,10 @@ The method returns a `Promise` object.
 
 **Parameters:**
 
-| Name     | Type                                                             | Required | Description                                                                                                         |
-| -------- | ---------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------- |
-| keys     | Array<string>                                                    | Yes      | Array of key for the items to get.                                                                                  |
-| callback | ?(errors: ?Array<Error>, result: ?Array<Array <string>>) => void | No       | Function that will be called with a key-value array of the results, plus an array of any key-specific errors found. |
+| Name     | Type                                                               | Required | Description                                                                                                         |
+| -------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------- |
+| keys     | `Array<string>`                                                    | Yes      | Array of key for the items to get.                                                                                  |
+| callback | `?(errors: ?Array<Error>, result: ?Array<Array <string>>) => void` | No       | Function that will be called with a key-value array of the results, plus an array of any key-specific errors found. |
 
 Example:
 
@@ -259,10 +259,10 @@ The method returns a `Promise` object.
 
 **Parameters:**
 
-| Name          | Type                             | Required | Description                                                                  |
-| ------------- | -------------------------------- | -------- | ---------------------------------------------------------------------------- |
-| keyValuePairs | Array<Array <string>>            | Yes      | Array of key-value array for the items to set.                               |
-| callback      | ?(errors: ?Array<Error>) => void | No       | Function that will be called with an array of any key-specific errors found. |
+| Name          | Type                               | Required | Description                                                                  |
+| ------------- | ---------------------------------- | -------- | ---------------------------------------------------------------------------- |
+| keyValuePairs | `Array<Array <string>>`            | Yes      | Array of key-value array for the items to set.                               |
+| callback      | `?(errors: ?Array<Error>) => void` | No       | Function that will be called with an array of any key-specific errors found. |
 
 ---
 
@@ -276,10 +276,10 @@ Call this to batch the deletion of all keys in the `keys` array. Returns a `Prom
 
 **Parameters:**
 
-| Name     | Type                             | Required | Description                                                             |
-| -------- | -------------------------------- | -------- | ----------------------------------------------------------------------- |
-| keys     | Array<string>                    | Yes      | Array of key for the items to delete.                                   |
-| callback | ?(errors: ?Array<Error>) => void | No       | Function that will be called an array of any key-specific errors found. |
+| Name     | Type                               | Required | Description                                                             |
+| -------- | ---------------------------------- | -------- | ----------------------------------------------------------------------- |
+| keys     | `Array<string>`                    | Yes      | Array of key for the items to delete.                                   |
+| callback | `?(errors: ?Array<Error>) => void` | No       | Function that will be called an array of any key-specific errors found. |
 
 Example:
 
@@ -305,10 +305,10 @@ Batch operation to merge in existing and new values for a given set of keys. Thi
 
 **Parameters:**
 
-| Name          | Type                             | Required | Description                                                                  |
-| ------------- | -------------------------------- | -------- | ---------------------------------------------------------------------------- |
-| keyValuePairs | Array<Array <string>>            | Yes      | Array of key-value array for the items to merge.                             |
-| callback      | ?(errors: ?Array<Error>) => void | No       | Function that will be called with an array of any key-specific errors found. |
+| Name          | Type                               | Required | Description                                                                  |
+| ------------- | ---------------------------------- | -------- | ---------------------------------------------------------------------------- |
+| keyValuePairs | `Array<Array <string>>`            | Yes      | Array of key-value array for the items to merge.                             |
+| callback      | `?(errors: ?Array<Error>) => void` | No       | Function that will be called with an array of any key-specific errors found. |
 
 Example:
 

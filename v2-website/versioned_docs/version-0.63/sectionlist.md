@@ -394,9 +394,9 @@ This may improve scroll performance for large lists.
 
 Rendered at the bottom of each section.
 
-| Type                                                 | Required |
-| ---------------------------------------------------- | -------- |
-| [(info: {section: SectionT}) => ?React.Element<any>] | No       |
+| Type                                                   | Required |
+| ------------------------------------------------------ | -------- |
+| `[(info: {section: SectionT}) => ?React.Element<any>]` | No       |
 
 ---
 
@@ -404,9 +404,9 @@ Rendered at the bottom of each section.
 
 Rendered at the top of each section. These stick to the top of the `ScrollView` by default on iOS. See `stickySectionHeadersEnabled`.
 
-| Type                                                 | Required |
-| ---------------------------------------------------- | -------- |
-| [(info: {section: SectionT}) => ?React.Element<any>] | No       |
+| Type                                                   | Required |
+| ------------------------------------------------------ | -------- |
+| `[(info: {section: SectionT}) => ?React.Element<any>]` | No       |
 
 ---
 
