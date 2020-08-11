@@ -81,7 +81,7 @@ Returns a Promise with photo identifier objects from the local camera roll of th
 
 Returns a Promise which when resolved will be of the following shape:
 
-- `edges` : {Array<node>} An array of node objects
+- `edges` : `{Array<node>}` An array of node objects
   - `node`: {object} An object with the following shape:
     - `type`: {string}
     - `group_name`: {string}
