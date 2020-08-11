@@ -15,9 +15,9 @@ This involved changing [css-layout](https://github.com/facebook/css-layout), the
 
 To battle test the RTL support in production, the latest version of the **Facebook Ads Manager** app (the first cross-platform 100% RN app) is now available in Arabic and Hebrew with RTL layouts for both [iOS](https://itunes.apple.com/app/id964397083) and [Android](https://play.google.com/store/apps/details?id=com.facebook.adsmanager). Here is how it looks like in those RTL languages:
 
-<img src="./assets/rtl-ama-ios-arabic.png" width="280" style="margin:10px">
+<img src="./assets/rtl-ama-ios-arabic.png" width="280" style="margin:10px" />
 
-<img src="./assets/rtl-ama-android-hebrew.png" width="280" style="margin:10px">
+<img src="./assets/rtl-ama-android-hebrew.png" width="280" style="margin:10px" />
 
 ## Overview Changes in RN for RTL support
 
@@ -122,8 +122,8 @@ In Android and iOS development, when you change to RTL layout, the gestures and 
 A good example to illustrate gesture RTL support is [`SwipeableRow`](https://github.com/facebook/react-native/blob/38a6eec0db85a5204e85a9a92b4dee2db9641671/Libraries/Experimental/SwipeableRow/SwipeableRow.js).
 
 <p align="center">
-  <img src="./assets/rtl-demo-swipe-ltr.png" width="280" style="margin:10px">
-  <img src="./assets/rtl-demo-swipe-rtl.png" width="280" style="margin:10px">
+  <img src="./assets/rtl-demo-swipe-ltr.png" width="280" style="margin:10px" />
+  <img src="./assets/rtl-demo-swipe-rtl.png" width="280" style="margin:10px" />
 </p>
 
 ##### Gestures Example
