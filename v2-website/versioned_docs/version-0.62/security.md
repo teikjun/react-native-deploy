@@ -105,7 +105,7 @@ A library to consider for native OAuth is [react-native-app-auth](https://github
 
 > React-native-app-auth can support PKCE only if your Identity Provider supports it.
 
-![OAuth2 with PKCE](./assets/diagram_pkce.svg)
+![OAuth2 with PKCE](/img/docs/diagram_pkce.svg)
 
 ## Network Security
 

@@ -19,10 +19,10 @@ This is an API that works both on Android and iOS and can show static alerts. To
   </tr>
   <tr>
     <td style="width: 50%;">
-      <center><img src="./assets/Alert/exampleios.gif"></img></center>
+      <center><img src="/img/docs/Alert/exampleios.gif"></img></center>
     </td>
     <td style="width: 50%;">
-      <center><img src="./assets/Alert/exampleandroid.gif"></img></center>
+      <center><img src="/img/docs/Alert/exampleandroid.gif"></img></center>
     </td>
   </tr>
 </table>
