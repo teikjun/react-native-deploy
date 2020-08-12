@@ -281,7 +281,7 @@ export default function CatApp() {
   return (
     <View>
       <Image
-        source={{uri: "https://reactnative.dev./assets/p_cat1.png"}}
+        source={{uri: "https://reactnative.dev/img/docs/p_cat1.png"}}
         style={{width: 200, height: 200}}
       />
       <Text>Hello, I am your cat!</Text>

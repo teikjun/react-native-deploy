@@ -36,7 +36,7 @@ import { Image, PixelRatio, ScrollView, StyleSheet, Text, TextInput, View } from
 
 const size = 50;
 const cat = {
-  uri: "https://reactnative.dev./assets/p_cat1.png",
+  uri: "https://reactnative.dev/img/docs/p_cat1.png",
   width: size,
   height: size
 };
