@@ -38,7 +38,4 @@ Eli's talk concludes by talking about our recent open source work. We gave [an u
 
 You'll find the episode in your favorite podcasting app soon or you can listen to the recording right here:
 
-<audio
-  controls
-  style="display: block; margin: 0 auto;"
-  src="https://media.devchat.tv/reactnativeradio/React_Native_Radio_Episode_121.mp3"> {' '} Audio is unsupported in this browser.{' '} </audio>
+<audio controls style={{display: 'block', margin: '0 auto'}} src="https://media.devchat.tv/reactnativeradio/React_Native_Radio_Episode_121.mp3"> {' '} Audio is unsupported in this browser.{' '} </audio>
