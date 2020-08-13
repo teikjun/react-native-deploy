@@ -14,14 +14,14 @@ This is an API that works both on Android and iOS and can show static alerts. To
 
 <table>
   <tr>
-    <th style="width: 50%;">iOS</th>
-    <th style="width: 50%;">Android</th>
+    <th style={{width: "50%"}}>iOS</th>
+    <th style={{width: "50%"}}>Android</th>
   </tr>
   <tr>
-    <td style="width: 50%;">
+    <td style={{width: "50%"}}>
       <center><img src="/img/docs/Alert/exampleios.gif"></img></center>
     </td>
-    <td style="width: 50%;">
+    <td style={{width: "50%"}}>
       <center><img src="/img/docs/Alert/exampleandroid.gif"></img></center>
     </td>
   </tr>
