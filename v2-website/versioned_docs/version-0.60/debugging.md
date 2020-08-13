@@ -139,7 +139,7 @@ You can enable a performance overlay to help you debug performance problems by s
 
 # Native Debugging
 
-<div className="banner-native-code-required" style={{margin-top:"25px"}}>
+<div className="banner-native-code-required" style={{marginTop:"25px"}}>
   <h3>Projects with Native Code Only</h3>
   <p>
     The following section only applies to projects with native code exposed. If you are using the managed `expo-cli` workflow, see the guide on <a href="https://docs.expo.io/versions/latest/workflow/customizing/" target="_blank">ejecting</a> to use this API.
