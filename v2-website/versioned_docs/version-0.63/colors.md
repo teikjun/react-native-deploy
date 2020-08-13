@@ -130,7 +130,7 @@ Named colors implementation follows the [CSS3/SVG specification](https://www.w3.
 - <ins style={{background: '#f08080'}} className="color-box" /> lightcoral (`#f08080`)
 - <ins style={{background: '#e0ffff'}} className="color-box" /> lightcyan (`#e0ffff`)
 - <ins style={{background: '#fafad2'}} className="color-box" /> lightgoldenrodyellow (`#fafad2`)
-- <ins style={{background: '#d3d3d3'}} className="color-box lightgray (`#d3d3d3`)
+- <ins style={{background: '#d3d3d3'}} className="color-box" /> lightgray (`#d3d3d3`)
 - <ins style={{background: '#90ee90'}} className="color-box" /> lightgreen (`#90ee90`)
 - <ins style={{background: '#d3d3d3'}} className="color-box" /> lightgrey (`#d3d3d3`)
 - <ins style={{background: '#ffb6c1'}} className="color-box" /> lightpink (`#ffb6c1`)
