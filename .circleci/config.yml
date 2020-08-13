@@ -4,9 +4,9 @@ version: 2.1
 #        EXECUTORS
 # -------------------------
 executors:
-  node10:
+  node:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:lts
 
 # -------------------------
 #        COMMANDS
@@ -40,7 +40,7 @@ jobs:
   # Checks out the repo, and persists to cache.
   # --------------------------------------------------
   setup:
-    executor: node10
+    executor: node
     working_directory: ~/react-native-website
     steps:
       - checkout
@@ -54,7 +54,7 @@ jobs:
   # Test that the website can be built.
   # --------------------------------------------------
   test:
-    executor: node10
+    executor: node
     working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
@@ -72,7 +72,7 @@ jobs:
   # Lint the docs.
   # --------------------------------------------------
   language_lint:
-    executor: node10
+    executor: node
     working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
@@ -84,7 +84,7 @@ jobs:
   # Deploy website to GitHub Pages in core RN repo.
   # --------------------------------------------------
   deploy_website:
-    executor: node10
+    executor: node
     working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
