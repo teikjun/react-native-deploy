@@ -55,7 +55,7 @@ jobs:
   # --------------------------------------------------
   test:
     executor: node8
-    working_directory: ~/react-native-website/website
+    working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
       - run_yarn
@@ -73,7 +73,7 @@ jobs:
   # --------------------------------------------------
   language_lint:
     executor: node8
-    working_directory: ~/react-native-website/website
+    working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
       - run_yarn
@@ -85,7 +85,7 @@ jobs:
   # --------------------------------------------------
   deploy_website:
     executor: node8
-    working_directory: ~/react-native-website/website
+    working_directory: ~/react-native-website/v2-website
     steps:
       - restore_cache_checkout
       - run_yarn
