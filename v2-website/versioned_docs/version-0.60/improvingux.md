@@ -1,7 +1,6 @@
 ---
 id: improvingux
 title: Improving User Experience
-original_id: improvingux
 ---
 
 ## Configure text inputs

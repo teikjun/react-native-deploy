@@ -1,7 +1,6 @@
 ---
 id: hermes
 title: Using Hermes
-original_id: hermes
 ---
 
 <a href="https://hermesengine.dev">

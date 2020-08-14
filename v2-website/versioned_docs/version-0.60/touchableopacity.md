@@ -1,7 +1,6 @@
 ---
 id: touchableopacity
 title: TouchableOpacity
-original_id: touchableopacity
 ---
 
 A wrapper for making views respond properly to touches. On press down, the opacity of the wrapped view is decreased, dimming it.

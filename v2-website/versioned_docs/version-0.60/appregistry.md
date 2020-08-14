@@ -1,7 +1,6 @@
 ---
 id: appregistry
 title: AppRegistry
-original_id: appregistry
 ---
 
 <div class="banner-native-code-required">

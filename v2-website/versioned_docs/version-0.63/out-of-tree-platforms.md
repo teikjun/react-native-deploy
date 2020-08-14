@@ -1,7 +1,6 @@
 ---
 id: out-of-tree-platforms
 title: Out-of-Tree Platforms
-original_id: out-of-tree-platforms
 ---
 
 React Native is not only for Android and iOS - there are community-supported projects that bring it to other platforms, such as:

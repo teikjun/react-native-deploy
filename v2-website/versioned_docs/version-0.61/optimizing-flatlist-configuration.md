@@ -1,7 +1,6 @@
 ---
 id: optimizing-flatlist-configuration
 title: Optimizing Flatlist Configuration
-original_id: optimizing-flatlist-configuration
 ---
 
 ## Terms

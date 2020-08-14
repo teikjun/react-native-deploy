@@ -1,7 +1,6 @@
 ---
 id: usewindowdimensions
 title: useWindowDimensions
-original_id: usewindowdimensions
 ---
 
 ```jsx

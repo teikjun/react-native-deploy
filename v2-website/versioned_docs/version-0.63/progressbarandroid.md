@@ -1,7 +1,6 @@
 ---
 id: progressbarandroid
 title: '🚧 ProgressBarAndroid'
-original_id: progressbarandroid
 ---
 
 > **Deprecated.** Use [@react-native-community/progress-bar-android](https://github.com/react-native-community/progress-bar-android) instead.

@@ -48,7 +48,7 @@ const updateVersionWithAsset = opts => {
   const newData = `---
 id: ${idForDocVersion}
 title: ${title}
-original_id: ${id}
+ 
 ---
 ${body}`;
 

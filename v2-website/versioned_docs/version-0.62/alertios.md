@@ -1,7 +1,6 @@
 ---
 id: alertios
 title: '🚧 AlertIOS'
-original_id: alertios
 ---
 
 > **Deprecated.** Use [`Alert`](alert) instead.

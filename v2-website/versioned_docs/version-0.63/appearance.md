@@ -1,7 +1,6 @@
 ---
 id: appearance
 title: Appearance
-original_id: appearance
 ---
 
 ```jsx

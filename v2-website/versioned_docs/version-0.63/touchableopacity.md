@@ -1,7 +1,6 @@
 ---
 id: touchableopacity
 title: TouchableOpacity
-original_id: touchableopacity
 ---
 
 > If you're looking for a more extensive and future-proof way to handle touch-based input, check out the [Pressable](pressable.md) API.

@@ -1,7 +1,6 @@
 ---
 id: snapshotviewios
 title: SnapshotViewIOS
-original_id: snapshotviewios
 ---
 
 ### Props

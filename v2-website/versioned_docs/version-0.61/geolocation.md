@@ -1,7 +1,6 @@
 ---
 id: geolocation
 title: '🚧 Geolocation'
-original_id: geolocation
 ---
 
 > **Deprecated.** Use [@react-native-community/geolocation](https://github.com/react-native-community/react-native-geolocation) instead.

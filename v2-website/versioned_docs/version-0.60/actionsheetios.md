@@ -1,7 +1,6 @@
 ---
 id: actionsheetios
 title: ActionSheetIOS
-original_id: actionsheetios
 ---
 
 # Reference

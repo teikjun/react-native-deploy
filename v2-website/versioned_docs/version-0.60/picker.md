@@ -1,7 +1,6 @@
 ---
 id: picker
 title: Picker
-original_id: picker
 ---
 
 Renders the native picker component on Android and iOS. Example:

@@ -2,7 +2,6 @@
 id: getting-started
 title: Introduction
 description: This helpful guide lays out the prerequisites for learning React Native, using these docs, and setting up your environment.
-original_id: getting-started
 ---
 
 <div class="content-banner">

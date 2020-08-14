@@ -1,7 +1,6 @@
 ---
 id: progressviewios
 title: ProgressViewIOS
-original_id: progressviewios
 ---
 
 Uses `ProgressViewIOS` to render a UIProgressView on iOS.

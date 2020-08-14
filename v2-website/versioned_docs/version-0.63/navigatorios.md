@@ -1,7 +1,6 @@
 ---
 id: navigatorios
 title: NavigatorIOS
-original_id: navigatorios
 ---
 
 > `NavigatorIOS` has been removed from the core React Native package in version 0.58.

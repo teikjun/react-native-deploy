@@ -1,7 +1,6 @@
 ---
 id: layout-props
 title: Layout Props
-original_id: layout-props
 ---
 
 # Reference

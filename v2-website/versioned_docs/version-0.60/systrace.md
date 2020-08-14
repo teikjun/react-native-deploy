@@ -1,7 +1,6 @@
 ---
 id: systrace
 title: Systrace
-original_id: systrace
 ---
 
 # Reference

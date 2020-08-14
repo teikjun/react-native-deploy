@@ -1,7 +1,6 @@
 ---
 id: asyncstorage
 title: '🚧 AsyncStorage'
-original_id: asyncstorage
 ---
 
 > **Deprecated.** Use [@react-native-community/async-storage](https://github.com/react-native-community/react-native-async-storage) instead.

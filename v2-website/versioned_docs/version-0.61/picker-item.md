@@ -1,7 +1,6 @@
 ---
 id: picker-item
 title: Picker.Item
-original_id: picker-item
 ---
 
 Individual selectable item in a [Picker](picker.md).

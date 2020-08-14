@@ -1,7 +1,6 @@
 ---
 id: image-style-props
 title: Image Style Props
-original_id: image-style-props
 ---
 
 ### Examples

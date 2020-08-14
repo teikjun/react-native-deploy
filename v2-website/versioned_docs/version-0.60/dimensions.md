@@ -1,7 +1,6 @@
 ---
 id: dimensions
 title: Dimensions
-original_id: dimensions
 ---
 
 ```jsx

@@ -1,7 +1,6 @@
 ---
 id: view-style-props
 title: View Style Props
-original_id: view-style-props
 ---
 
 ### Example

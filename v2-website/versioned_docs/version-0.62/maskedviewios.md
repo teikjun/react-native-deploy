@@ -1,7 +1,6 @@
 ---
 id: maskedviewios
 title: '🚧 MaskedViewIOS'
-original_id: maskedviewios
 ---
 
 > **Deprecated.** Use [@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view) instead.

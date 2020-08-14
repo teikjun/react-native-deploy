@@ -1,7 +1,6 @@
 ---
 id: timepickerandroid
 title: TimePickerAndroid
-original_id: timepickerandroid
 ---
 
 Opens the standard Android time picker dialog.

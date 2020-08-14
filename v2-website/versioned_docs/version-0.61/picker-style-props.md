@@ -1,7 +1,6 @@
 ---
 id: picker-style-props
 title: Picker Style Props
-original_id: picker-style-props
 ---
 
 [Picker](picker.md) style props.

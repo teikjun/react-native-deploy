@@ -1,7 +1,6 @@
 ---
 id: platformcolor
 title: PlatformColor
-original_id: platformcolor
 ---
 
 ```js

@@ -1,7 +1,6 @@
 ---
 id: slider
 title: Slider
-original_id: slider
 ---
 
 > **Deprecated.** Use [react-native-community/react-native-slider](https://github.com/react-native-community/react-native-slider) instead.

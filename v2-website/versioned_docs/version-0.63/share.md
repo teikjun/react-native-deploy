@@ -1,7 +1,6 @@
 ---
 id: share
 title: Share
-original_id: share
 ---
 
 ## Example

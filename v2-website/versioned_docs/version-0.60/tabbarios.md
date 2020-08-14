@@ -1,7 +1,6 @@
 ---
 id: tabbarios
 title: TabBarIOS
-original_id: tabbarios
 ---
 
 ### Props

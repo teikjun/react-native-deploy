@@ -1,7 +1,6 @@
 ---
 id: profiling
 title: Profiling
-original_id: profiling
 ---
 
 Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu.

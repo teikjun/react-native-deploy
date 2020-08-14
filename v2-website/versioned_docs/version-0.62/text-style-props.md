@@ -1,7 +1,6 @@
 ---
 id: text-style-props
 title: Text Style Props
-original_id: text-style-props
 ---
 
 ### Example

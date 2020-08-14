@@ -1,7 +1,6 @@
 ---
 id: checkbox
 title: CheckBox
-original_id: checkbox
 ---
 
 Renders a boolean input (Android only).

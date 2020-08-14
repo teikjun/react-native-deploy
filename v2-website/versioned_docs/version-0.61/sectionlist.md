@@ -1,7 +1,6 @@
 ---
 id: sectionlist
 title: SectionList
-original_id: sectionlist
 ---
 
 A performant interface for rendering sectioned lists, supporting the most handy features:

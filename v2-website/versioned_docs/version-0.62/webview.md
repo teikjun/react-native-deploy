@@ -1,7 +1,6 @@
 ---
 id: webview
 title: '🚧 WebView'
-original_id: webview
 ---
 
 > **Deprecated.** Use [react-native-community/react-native-webview](https://github.com/react-native-community/react-native-webview) instead.

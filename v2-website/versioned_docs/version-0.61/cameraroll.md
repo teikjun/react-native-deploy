@@ -1,7 +1,7 @@
 ---
 id: cameraroll
 title: '🚧 CameraRoll'
-original_id: cameraroll
+
 custom_edit_url: 'https://github.com/facebook/react-native-website/edit/master/website/versioned_docs/version-0.58/cameraroll.md'
 ---
 

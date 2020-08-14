@@ -1,7 +1,6 @@
 ---
 id: pressable
 title: Pressable
-original_id: pressable
 ---
 
 Pressable is a Core Component wrapper that can detect various stages of press interactions on any of it's defined children.

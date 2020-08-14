@@ -1,7 +1,6 @@
 ---
 id: debugging
 title: Debugging
-original_id: debugging
 ---
 
 ## Accessing the In-App Developer Menu
