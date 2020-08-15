@@ -5,7 +5,7 @@ class Help extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="pageContainer HelpPage">
+        <div className="pageContainer HelpPage mainContainer">
           <div className="container margin-vert--lg">
             <h1 className="postHeaderTitle">The React Native Community</h1>
             <p>
