@@ -418,10 +418,83 @@ module.exports = {
     },
     image: 'img/logo-og.png',
     footer: {
-      links: [],
+      style: 'dark',
+      links: [
+        {
+          title: 'DOCS',
+          items: [
+            {
+              label: 'Getting Started',
+              to: 'docs/getting-started',
+            },
+            {
+              label: 'Tutorial',
+              to: 'docs/tutorial',
+            },
+            {
+              label: 'Components and APIs',
+              to: 'docs/components-and-apis',
+            },
+            {
+              label: 'More Resources',
+              to: 'docs/more-resources',
+            },
+          ],
+        },
+        {
+          title: 'COMMUNITY',
+          items: [
+            {
+              label: 'The React Native Community',
+              href: 'https://reactnative.dev/help',
+            },
+            {
+              label: "Who's using React Native?",
+              to: 'https://reactnative.dev/showcase',
+            },
+            {
+              label: 'Ask Questions on Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/react-native',
+            },
+            {
+              label: 'Contributor Guide',
+              to:
+                'https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md',
+            },
+            {
+              label: 'DEV Community',
+              to: 'https://dev.to/t/reactnative',
+            },
+          ],
+        },
+        {
+          title: 'MORE RESOURCES',
+          items: [
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/reactnative',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/react-native',
+            },
+            {
+              label: 'React',
+              href: 'https://reactjs.org/',
+            },
+          ],
+        },
+      ],
       logo: {
-        src: 'img/header_logo.png',
+        alt: 'Facebook Open Source Logo',
+        src: 'img/oss_logo.png',
+        href: 'https://opensource.facebook.com',
       },
+      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
     },
     algolia: {
       apiKey: '2c98749b4a1e588efec53b2acec13025',
