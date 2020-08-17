@@ -1,6 +1,7 @@
 ---
-id: touchablewithoutfeedback
+id: version-0.63-touchablewithoutfeedback
 title: TouchableWithoutFeedback
+original_id: touchablewithoutfeedback
 ---
 
 > If you're looking for a more extensive and future-proof way to handle touch-based input, check out the [Pressable](pressable.md) API.

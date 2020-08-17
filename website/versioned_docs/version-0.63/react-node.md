@@ -1,6 +1,7 @@
 ---
-id: react-node
+id: version-0.63-react-node
 title: React Node Object Type
+original_id: react-node
 ---
 
 A React Node is one of the following types:

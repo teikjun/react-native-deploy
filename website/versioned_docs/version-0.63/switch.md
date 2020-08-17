@@ -1,6 +1,7 @@
 ---
-id: switch
+id: version-0.63-switch
 title: Switch
+original_id: switch
 ---
 
 Renders a boolean input.

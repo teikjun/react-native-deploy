@@ -1,6 +1,7 @@
 ---
-id: native-components-ios
+id: version-0.62-native-components-ios
 title: Native UI Components
+original_id: native-components-ios
 ---
 
 There are tons of native UI widgets out there ready to be used in the latest apps - some of them are part of the platform, others are available as third-party libraries, and still more might be in use in your very own portfolio. React Native has several of the most critical platform components already wrapped, like `ScrollView` and `TextInput`, but not all of them, and certainly not ones you might have written yourself for a previous app. Fortunately, we can wrap up these existing components for seamless integration with your React Native application.
@@ -429,9 +430,9 @@ class MyNativeView extends React.Component<> {
 
 `callNativeMethod` is our custom iOS method which for example changes the `backgroundColor` which is exposed through `MyNativeView`. This method uses `UIManager.dispatchViewManagerCommand` which needs 3 parameters:
 
-- `(nonnull NSNumber \*)reactTag`  -  id of react view.
-- `commandID:(NSInteger)commandID`  -  Id of the native method that should be called
-- `commandArgs:(NSArray<id> \*)commandArgs`  -  Args of the native method that we can pass from JS to native.
+- (nonnull NSNumber \*)reactTag  -  id of react view.
+- commandID:(NSInteger)commandID  -  Id of the native method that should be called
+- commandArgs:(NSArray<id> \*)commandArgs  -  Args of the native method that we can pass from JS to native.
 
 `RNCMyNativeViewManager.m`
 

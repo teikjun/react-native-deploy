@@ -1,6 +1,7 @@
 ---
-id: pixelratio
+id: version-0.63-pixelratio
 title: PixelRatio
+original_id: pixelratio
 ---
 
 `PixelRatio` gives you access to the device's pixel density and font scale.

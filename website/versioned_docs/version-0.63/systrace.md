@@ -1,6 +1,7 @@
 ---
-id: systrace
+id: version-0.63-systrace
 title: Systrace
+original_id: systrace
 ---
 
 `Systrace` is a standard Android marker-based profiling tool (and is installed when you install the Android platform-tools package). Profiled code blocks are surrounded by start/end markers which are then visualized in a colorful chart format. Both the Android SDK and React Native framework provide standard markers that you can visualize.

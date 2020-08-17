@@ -1,6 +1,7 @@
 ---
-id: components-and-apis
+id: version-0.62-components-and-apis
 title: Core Components and APIs
+original_id: components-and-apis
 ---
 
 React Native provides a number of built-in [Core Components](intro-react-native-components) ready for you to use in your app. You can find them all in the left sidebar (or menu above, if you are on a narrow screen). If you're not sure where to get started, take a look at the following categories:
@@ -121,7 +122,7 @@ Many of the following components provide wrappers for commonly used Android clas
 <div class="component-grid component-grid-border">
   <div class="component">
     <a href="./backhandler">
-      <h3>BackHandler</h3>
+      <h3>BackHandler</a></h3>
       <p>Detect hardware button presses for back navigation.</p>
     </a>
   </div>
@@ -132,8 +133,8 @@ Many of the following components provide wrappers for commonly used Android clas
     </a>
   </div>
   <div class="component">
-        <a href="./permissionsandroid">
-      <h3>PermissionsAndroid</h3>
+    <a href="./permissionsandroid">
+      <h3>PermissionsAndroid</a></h3>
       <p>Provides access to the permissions model introduced in Android M.</p>
     </a>
   </div>

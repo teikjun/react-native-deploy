@@ -1,6 +1,7 @@
 ---
-id: touchablehighlight
+id: version-0.63-touchablehighlight
 title: TouchableHighlight
+original_id: touchablehighlight
 ---
 
 > If you're looking for a more extensive and future-proof way to handle touch-based input, check out the [Pressable](pressable.md) API.

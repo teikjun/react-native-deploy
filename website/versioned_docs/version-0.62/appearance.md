@@ -1,6 +1,7 @@
 ---
-id: appearance
+id: version-0.62-appearance
 title: Appearance
+original_id: appearance
 ---
 
 ```jsx

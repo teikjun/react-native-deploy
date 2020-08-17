@@ -1,6 +1,7 @@
 ---
-id: usecolorscheme
+id: version-0.62-usecolorscheme
 title: useColorScheme
+original_id: usecolorscheme
 ---
 
 ```jsx

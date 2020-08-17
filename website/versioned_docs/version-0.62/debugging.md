@@ -1,6 +1,7 @@
 ---
-id: debugging
+id: version-0.62-debugging
 title: Debugging
+original_id: debugging
 ---
 
 ## Accessing the In-App Developer Menu
@@ -122,7 +123,7 @@ Then select a React component in React DevTools. There is a search box at the to
 
 You can enable a performance overlay to help you debug performance problems by selecting "Perf Monitor" in the Developer Menu.
 
-<hr style={{ marginTop: "25px", marginBottom: "25px"}} />
+<hr style="margin-top:25px; margin-bottom:25px;"/>
 
 ## Debugging Application State
 

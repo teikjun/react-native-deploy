@@ -1,6 +1,7 @@
 ---
-id: animated
+id: version-0.62-animated
 title: Animated
+original_id: animated
 ---
 
 The `Animated` library is designed to make animations fluid, powerful, and painless to build and maintain. `Animated` focuses on declarative relationships between inputs and outputs, configurable transforms in between, and `start`/`stop` methods to control time-based animation execution.

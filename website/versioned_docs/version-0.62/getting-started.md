@@ -1,6 +1,7 @@
 ---
-id: environment-setup
+id: version-0.62-environment-setup
 title: Setting up the development environment
+original_id: environment-setup
 ---
 
 This page will help you install and build your first React Native app.
@@ -53,7 +54,7 @@ Congratulations! You've successfully run and modified your first React Native ap
 
 <center><img src="/img/docs/GettingStartedCongratulations.png" width="150"></img></center>
 
-<h2>Now what?</h2>
+<h2>Now what?</h3>
 
 Expo also has [docs](https://docs.expo.io) you can reference if you have questions specific to the tool. You can also ask for help at [Expo forums](https://forums.expo.io).
 

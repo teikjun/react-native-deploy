@@ -1,6 +1,7 @@
 ---
-id: touchablenativefeedback
+id: version-0.63-touchablenativefeedback
 title: TouchableNativeFeedback
+original_id: touchablenativefeedback
 ---
 
 > If you're looking for a more extensive and future-proof way to handle touch-based input, check out the [Pressable](pressable.md) API.

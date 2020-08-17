@@ -1,6 +1,7 @@
 ---
-id: backhandler
+id: version-0.63-backhandler
 title: BackHandler
+original_id: backhandler
 ---
 
 The Backhandler API detects hardware button presses for back navigation, lets you register event listeners for the system's back action, and lets you control how your application responds. It is Android-only.

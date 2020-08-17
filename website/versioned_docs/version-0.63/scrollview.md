@@ -1,6 +1,7 @@
 ---
-id: scrollview
+id: version-0.63-scrollview
 title: ScrollView
+original_id: scrollview
 ---
 
 Component that wraps platform ScrollView while providing integration with touch locking "responder" system.

@@ -1,6 +1,7 @@
 ---
-id: pressevent
+id: version-0.63-pressevent
 title: PressEvent Object Type
+original_id: pressevent
 ---
 
 `PressEvent` object is returned in the callback as a result of user press interaction, for example `onPress` in [Button](button) component.
