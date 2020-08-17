@@ -13,8 +13,8 @@
     "url": "git+https://github.com/facebook/react-native-website.git"
   },
   "scripts": {
-    "start": "docusaurus-start",
-    "build": "docusaurus-build",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
     "prepublish-gh-pages": "yarn sync-community-repos",
     "publish-gh-pages": "docusaurus-publish",
     "version": "docusaurus-version",
@@ -30,7 +30,10 @@
     "sync-guides": "node sync-guides.js",
     "test": "yarn build",
     "lint": "cd ../ && alex .",
-    "lintv": "cd ../ && alex"
+    "lintv": "cd ../ && alex",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "docusaurus": "docusaurus"
   },
   "husky": {
     "hooks": {
@@ -39,9 +42,13 @@
   },
   "dependencies": {
     "alex": "^8.0.0",
-    "docusaurus": "1.14.5",
     "highlight.js": "^9.15.10",
-    "remarkable": "^2.0.0"
+    "remarkable": "^2.0.0",
+    "@docusaurus/core": "2.0.0-alpha.61",
+    "@docusaurus/preset-classic": "2.0.0-alpha.61",
+    "clsx": "^1.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   },
   "devDependencies": {
     "front-matter": "^2.3.0",

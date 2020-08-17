@@ -2,8 +2,8 @@
 title: React Native Documentation Update
 author: Rachel Nabors
 authorTitle: Documentation Engineer at Facebook
-authorURL: https://twitter.com/rachelnabors
-authorImageURL: https://avatars0.githubusercontent.com/u/236306?s=460&v=4
+authorURL: 'https://twitter.com/rachelnabors'
+authorImageURL: 'https://avatars0.githubusercontent.com/u/236306?s=460&v=4'
 authorTwitter: rachelnabors
 ---
 
