@@ -16,6 +16,8 @@
 @import "./versions.css"; */
 
 @import "./docs.css";
+@import "./react-native.css";
+@import "./reset.css";
 
 :root {
   --ifm-color-primary: #06bcee;
