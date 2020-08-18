@@ -1,4 +1,4 @@
-@import "./blog.css";
+/* @import "./blog.css";
 @import "./codeblocks.css";
 @import "./docs.css";
 @import "./docs-prevnext.css";
@@ -12,7 +12,7 @@
 @import "./tabs.css";
 @import "./toc.css";
 @import "./variables.css";
-@import "./versions.css";
+@import "./versions.css"; */
 
 :root {
   --ifm-color-primary: black;
