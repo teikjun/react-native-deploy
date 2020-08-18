@@ -6,9 +6,9 @@ class Help extends React.Component {
   render() {
     return (
       <Layout>
-        <div className={styles.HelpPage}>
+        <div className={('pageContainer', styles.HelpPage, 'mainContainer')}>
           <div className="container margin-vert--lg">
-            <h1>The React Native Community</h1>
+            <h1 className="postHeaderTitle">The React Native Community</h1>
             <p>
               There are a lot of developers around the world using React Native.
               This is a brief overview of where you can find them.

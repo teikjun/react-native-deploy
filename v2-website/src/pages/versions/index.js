@@ -65,7 +65,7 @@ class Versions extends React.Component {
 
     return (
       <Layout>
-        <div>
+        <div className="pageContainer versionsPage">
           <div className="container margin-vert--lg">
             <h1>React Native versions</h1>
             <p>
