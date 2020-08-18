@@ -7,8 +7,9 @@
 
 const React = require('react');
 import Layout from '@theme/Layout';
+import styles from './styles.module.css';
 
-const docusaurusConfig = require('../../docusaurus.config.js');
+const docusaurusConfig = require('../../../docusaurus.config.js');
 
 const showcaseApps = docusaurusConfig.customFields.users;
 const pinnedApps = showcaseApps.filter(app => {
@@ -40,7 +41,7 @@ class AppList extends React.Component {
 
   _renderApp(app, i) {
     return (
-      <div className="showcase" key={i}>
+      <div className={styles.showcase} key={i}>
         <div>
           <a href={app.infoLink}>{this._renderAppIcon(app)}</a>
           {this._renderAppName(app.name)}
@@ -114,8 +115,8 @@ class Showcase extends React.Component {
       <Layout>
         <div className="pageContainer">
           <div className="container margin-vert--lg">
-            <div className="showcaseSection">
-              <div className="showcaseHeader">
+            <div className={styles.showcaseSection}>
+              <div className={styles.showcaseHeader}>
                 <h1>Who's using React Native?</h1>
                 <p>
                   Thousands of apps are using React Native, from established
@@ -124,7 +125,7 @@ class Showcase extends React.Component {
                   these apps!
                 </p>
               </div>
-              <div className="logos">
+              <div className={styles.logos}>
                 <AppList apps={apps} />
               </div>
               <p>

@@ -7,8 +7,9 @@
 
 import React from 'react';
 import Layout from '@theme/Layout';
-const docusaurusConfig = require('../../docusaurus.config.js');
-const versions = require('../../versions.json');
+const docusaurusConfig = require('../../../docusaurus.config.js');
+const versions = require('../../../versions.json');
+import styles from './styles.module.css';
 
 class VersionItem extends React.Component {
   render() {
@@ -64,7 +65,7 @@ class Versions extends React.Component {
 
     return (
       <Layout>
-        <div className="pageContainer versionsPage">
+        <div>
           <div className="container margin-vert--lg">
             <h1>React Native versions</h1>
             <p>
