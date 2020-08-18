@@ -381,10 +381,11 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/react-native',
-          label: 'GitHub',
+          to: '/blog',
+          label: 'Blog',
           position: 'left',
         },
+
         {
           label: 'Version',
           to: 'docs',
@@ -413,6 +414,11 @@ module.exports = {
               activeBaseRegex: 'docs/next/(?!support|team|resources)',
             },
           ],
+        },
+        {
+          href: 'https://github.com/facebook/react-native',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
