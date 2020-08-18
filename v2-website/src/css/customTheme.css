@@ -1,3 +1,5 @@
+/* This file contains global CSS */
+
 /* @import "./blog.css";
 @import "./codeblocks.css";
 @import "./docs.css";
@@ -15,5 +17,5 @@
 @import "./versions.css"; */
 
 :root {
-  --ifm-color-primary: black;
+  --ifm-color-primary: #06bcee;
 }
