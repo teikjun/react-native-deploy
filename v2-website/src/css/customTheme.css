@@ -2,7 +2,6 @@
 
 /* @import "./blog.css";
 @import "./codeblocks.css";
-@import "./docs.css";
 @import "./docs-prevnext.css";
 @import "./footer.css";
 @import "./header.css";
@@ -15,6 +14,8 @@
 @import "./toc.css";
 @import "./variables.css";
 @import "./versions.css"; */
+
+@import "./docs.css";
 
 :root {
   --ifm-color-primary: #06bcee;
