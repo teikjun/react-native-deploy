@@ -354,12 +354,23 @@ module.exports = {
   ],
   plugins: [],
   themeConfig: {
+    announcementBar: {
+      id: 'blm_banner', // Any value that will identify this message.
+      content:
+        'Black Lives Matter. <a href="https://support.eji.org/give/153413/#!/donation/checkout">Support the Equal Justice Initiative.</a>',
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+    },
     navbar: {
       title: 'React Native',
       logo: {
         src: 'img/header_logo.svg',
       },
       items: [
+        {
+          type: 'docsVersion',
+          position: 'left',
+          to: '/versions',
+        },
         {
           to: 'docs/',
           label: 'Docs',
